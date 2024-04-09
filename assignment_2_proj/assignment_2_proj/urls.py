@@ -20,5 +20,5 @@ from assignment2_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path(r'^/$', views.home)
+    re_path(r'^/?$', views.home), # r = raw string, ^ = localhost or http://127.0.0.1:8000/, ? = previous character is optional, $ = ending
 ]
