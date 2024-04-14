@@ -14,7 +14,7 @@ def project_details(request):
 
     return render(request, "assignment2_app/projectDetails.html", context)
 
-
+# http://127.0.0.1:8000/project-list
 def project_list(request):
 
     context = {
@@ -23,6 +23,7 @@ def project_list(request):
 
     return render(request, "assignment2_app/projectList.html", context)
 
+# http://127.0.0.1:8000/about 
 def about(request):
 
     context = {
