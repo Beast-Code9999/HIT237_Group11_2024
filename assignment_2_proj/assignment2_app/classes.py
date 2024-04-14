@@ -28,12 +28,22 @@ class ProjectsClass:
         }
     
     def fields( self ):
-        pass
+        return {
+            "Chemical Engineering": self.chemical_engineering,
+            "Civil and Structural Engineering": self.civil_and_structural_engineering,
+            "Electrical and Electronics Engineering": self.electrical_and_electronics_engineering,
+            "Mechanical Engineering": self.mechanical_engineering,
+            "Computer Science": self.computer_science,
+            "Cyber Security": self.cyber_security,
+            "Data Science": self.data_science,
+            "Information Systems and Data Science": self.information_systems_and_data_science,
+            "Software Engineering": self.software_engineering,
+        }
 
 
-proj1 = ProjectsClass("Yakub Sebastian", "Multidisplinary domain", "learning and Data Science", 9, True, True, True)        
+proj1 = ProjectsClass("Yakub Sebastian", "Multidisplinary domain", "learning and Data Science", 9, True, True, True, False, False, False, False, True, False, False, True, True)        
 
-print(proj1.location()["casuarina"])
+print(proj1.mechanical_engineering)
 
 # proj2 = ProjectsClass()        
 # proj3 = ProjectsClass()        
