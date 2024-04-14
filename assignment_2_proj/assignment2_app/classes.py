@@ -41,9 +41,9 @@ class ProjectsClass:
         }
 
 
-proj1 = ProjectsClass("Yakub Sebastian", "Multidisplinary domain", "learning and Data Science", 9, True, True, True, False, False, False, False, True, False, False, True, True)        
+proj1 = ProjectsClass("Bharanidharan Shanmugam", "Machine Learning Approaches for Cyber Security", "Artificial Intelligence, Machine learning and Data Science", 9, True, True, True, False, False, False, False, True, False, False, True, True)        
 
-print(proj1.mechanical_engineering)
+print(proj1.category)
 
 # proj2 = ProjectsClass()        
 # proj3 = ProjectsClass()        
