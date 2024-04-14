@@ -58,7 +58,7 @@ ROOT_URLCONF = 'assignment_2_proj.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / "templates"],
+        'DIRS': [BASE_DIR / "/assignment_2_proj/assignment2_app/templates/assignment2_app"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

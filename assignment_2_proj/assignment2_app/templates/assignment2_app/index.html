@@ -6,17 +6,12 @@
     <title>Home</title>
 </head>
 <body>
-    <header>
-        <a href="{% url  %}"></a>
-    </header>
+    {% extends "./base.html" %}
 
+    {% block content %}
     <main>
-
-        <H1>Hello world</H1>
+        <H1>this is index</H1>
     </main>
-
-    <footer>
-
-    </footer>
+    {% endblock content %}
 </body>
 </html>
