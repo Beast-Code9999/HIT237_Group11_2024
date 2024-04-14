@@ -6,12 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="{% url 'home' %}">Home</a>
-        <a href="{% url 'project-details' %}">Project details</a>
+    <header class="header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="{% url 'home' %}">Home</a></li>
+                <li class="navigation__item"><a href="{% url 'project-details' %}">Project details</a></li>
+            </ul>
+        </nav>
     </header>
+
+
     {% block content %} {% endblock content %}
-    <footer>
+
+
+    <footer class="footer">
         <p>this is footer</p>
     </footer>
 </body>
