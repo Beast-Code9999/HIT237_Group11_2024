@@ -60,13 +60,21 @@ body {
 .navigation__item a {
     color: white;
 }
+.navigation__item {
+    transition: all .3s;
 
+}
+.navigation__item:hover {
+    transform: translateY(-.3rem);
+}
 
 .main {
-    padding: 24rem 14rem;
+    padding: 28rem 14rem 53rem 14rem;
 }
 
 .footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
     height: 35rem;
     background-color: var(--color-primary);

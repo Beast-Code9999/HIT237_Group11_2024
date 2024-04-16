@@ -1,5 +1,10 @@
 # Where we shall write our python classes for Project Details
-
+class Members:
+    def __init__(self, name, course, age, ethnicity):
+        self.name = name
+        self.course = course
+        self.age = age
+        self.ethnicity = ethnicity
 
 class ProjectsClass:
     def __init__(
@@ -86,6 +91,8 @@ print(proj1.category)
 # proj5 = ProjectsClass()
 # proj6 = ProjectsClass()
 # proj7 = ProjectsClass()
+
+
 
 
 projects_list = []
