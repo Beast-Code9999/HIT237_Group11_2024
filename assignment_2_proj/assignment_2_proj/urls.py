@@ -15,21 +15,21 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, re_path  # new Regex path
-from assignment2_app import views
+from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    re_path(
-        r"^/?$", views.home, name="home"
-    ),  # r = raw string, ^ = localhost or http://127.0.0.1:8000/, ? = previous character is optional, $ = ending
-    re_path(
-        r"^project-details/?$", views.project_details, name="project-details"
-    ),  # http://127.0.0.1:8000/project-details
-    re_path(
-        r"^project-list/?$", views.project_list, name="project-list"
-    ),  # http://127.0.0.1:8000/project-details
-    re_path(
-        r"^about/?$", views.about, name="about"
-    ),  # http://127.0.0.1:8000/project-details
+    path("", include("assignment2_app.urls")),
+    # re_path(
+    #     r"^/?$", views.home, name="home"
+    # ),  # r = raw string, ^ = localhost or http://127.0.0.1:8000/, ? = previous character is optional, $ = ending
+    # re_path(
+    #     r"^project-list/?$", views.project_list, name="project-list"
+    # ),  # http://127.0.0.1:8000/project-details
+    # re_path(
+    #     r"^project-details/?$", views.project_detail, name="project-details"
+    # ),  # http://127.0.0.1:8000/project-details
+    # re_path(
+    #     r"^about/?$", views.about, name="about"
+    # ),  # http://127.0.0.1:8000/project-details
 ]
