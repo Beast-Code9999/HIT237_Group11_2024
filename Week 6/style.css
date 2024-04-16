@@ -1,3 +1,4 @@
+/* Main Index ome */ 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -55,3 +56,55 @@ footer {
     bottom: 0;
 }
 
+/* For Research  */
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+    margin-top: 20px;
+}
+
+.project {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    border-left: 5px solid #007BFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project h2 {
+    color: #0056b3;
+    margin-top: 0;
+}
+
+.project p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.project strong {
+    color: #333;
+}
