@@ -46,12 +46,9 @@ header nav ul li a {
 footer {
     text-align: justify;
     padding: 50px 140px;
-    text-decoration: none;
     color: #ffffff;
     background-color: #770577;
-    /* position: absolute; */
-    width: 100%;
-    bottom: 0;
+    text-align: center;
 }
 
 /* For Research  */
@@ -126,7 +123,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: 30px;
-    border: 2px solid #770577
+    border: 3px solid #770577;
+    border-radius: 10px;
 }
 
 .about-us {
@@ -142,8 +140,12 @@ section h2 {
     /* width: 200px; */
 }
 
-h1 {
+.logo h1 {
     font-size: 50px;
     color: #ffffff;
     margin: 20px;
+}
+
+.about-us h2 {
+    font-size: 35px;
 }
