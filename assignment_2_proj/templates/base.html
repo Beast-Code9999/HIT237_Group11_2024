@@ -12,6 +12,11 @@
 <body>
     
     <header class="header">
+        <a href="{% url 'home' %}">
+            <div class="header__logo">
+                <img class="header__img" src="{% static "img/1234.png" %}" alt="Group 11 Logo">
+            </div>
+        </a>
         <nav class="navigation">
             <ul class="navigation__list">
                 <li class="navigation__item"><a href="{% url 'home' %}">Home</a></li>

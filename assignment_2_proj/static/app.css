@@ -24,4 +24,32 @@ body {
     background-color: var(--primary-color);
     font-family: "Edu NSW ACT Foundation", cursive;
     position: relative;
+    background-color: white;
+}
+
+.header {
+    width: 100%;
+    padding: 2rem;
+    background-color: lightblue;
+    display: flex;
+    font-size: 2rem;
+}
+.header__img {
+    width: 10rem;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+}
+.navigation__item a {
+    text-decoration: none;
+
 }

@@ -1,0 +1,31 @@
+/* About Us page */
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.jason,
+.micia,
+.tirth,
+.zandro {
+    width: 20rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border: 2px solid #770577;
+}
+
+.about-us {
+    margin: 50px 140px;
+}
+
+
+
+section h2 {
+    text-align: center;
+}
