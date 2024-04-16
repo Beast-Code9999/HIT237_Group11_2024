@@ -12,10 +12,9 @@
 <section class="about-us">
     <h2>About Us</h2>
     <div class="profiles">
-        {% include "assignment2_app/includes/member.html" %}
-        {% include "assignment2_app/includes/member.html" %}
-        {% include "assignment2_app/includes/member.html" %}
-        {% include "assignment2_app/includes/member.html" %}
+        {% for member in members %}
+            {% include "assignment2_app/includes/member.html" %}
+        {% endfor %}
     </div>
 </section>
 {% endblock content %}

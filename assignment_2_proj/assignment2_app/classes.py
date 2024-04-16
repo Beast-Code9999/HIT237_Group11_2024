@@ -1,10 +1,12 @@
 # Where we shall write our python classes for Project Details
-class Members:
+class Member:
     def __init__(self, name, course, age, ethnicity):
         self.name = name
         self.course = course
         self.age = age
         self.ethnicity = ethnicity
+
+# use tuples here
 
 class ProjectsClass:
     def __init__(
@@ -16,6 +18,31 @@ class ProjectsClass:
         casuarina,
         sydney,
         external,
+    ):
+        self.supervisor = supervisor
+        self.title = title
+        self.category = category
+        self.topic_num = topic_num
+        self.casuarina = casuarina
+        self.sydney = sydney
+        self.external = external
+
+    def location(self):
+        location_array = []
+
+        if self.casuarina == True:
+            location_array.append("Casuarina")
+        if self.sydney == True:
+            location_array.append("Sydney")
+        if self.external == True:
+            location_array.append("External")
+
+        return location_array
+
+
+class ProjectsCategoryClass:
+    def __init__(
+        self,
         chem_eng,
         civ_eng,
         elec_eng,
@@ -26,13 +53,6 @@ class ProjectsClass:
         info_sys,
         soft_eng,
     ):
-        self.supervisor = supervisor
-        self.title = title
-        self.category = category
-        self.topic_num = topic_num
-        self.casuarina = casuarina
-        self.sydney = sydney
-        self.external = external
         self.chemical_engineering = chem_eng
         self.civil_and_structural_engineering = civ_eng
         self.electrical_and_electronics_engineering = elec_eng
@@ -43,12 +63,7 @@ class ProjectsClass:
         self.information_systems_and_data_science = info_sys
         self.software_engineering = soft_eng
 
-    def location(self):
-        return {
-            "casuarina": self.casuarina,
-            "sydney": self.sydney,
-            "external": self.external,
-        }
+
 
     def fields(self):
         return {
@@ -62,7 +77,7 @@ class ProjectsClass:
             "Information Systems and Data Science": self.information_systems_and_data_science,
             "Software Engineering": self.software_engineering,
         }
-
+    
 
 proj1 = ProjectsClass(
     "Bharanidharan Shanmugam",
@@ -72,18 +87,67 @@ proj1 = ProjectsClass(
     True,
     True,
     True,
-    False,
-    False,
-    False,
-    False,
+)
+proj2 = ProjectsClass(
+    "Yakub Sebastian",
+    "Machine Learning Approaches for Cyber Security",
+    "Artificial Intelligence, Machine learning and Data Science",
+    9,
     True,
-    False,
-    False,
+    True,
+    True,
+)
+proj3 = ProjectsClass(
+    "Bharanidharan Shanmugam",
+    "Machine Learning Approaches for Cyber Security",
+    "Artificial Intelligence, Machine learning and Data Science",
+    9,
+    True,
+    True,
+    True,
+)
+proj4 = ProjectsClass(
+    "Bharanidharan Shanmugam",
+    "Machine Learning Approaches for Cyber Security",
+    "Artificial Intelligence, Machine learning and Data Science",
+    9,
+    True,
+    True,
+    True,
+)
+proj5 = ProjectsClass(
+    "Bharanidharan Shanmugam",
+    "Machine Learning Approaches for Cyber Security",
+    "Artificial Intelligence, Machine learning and Data Science",
+    9,
+    True,
+    True,
+    True,
+)
+proj6 = ProjectsClass(
+    "Bharanidharan Shanmugam",
+    "Machine Learning Approaches for Cyber Security",
+    "Artificial Intelligence, Machine learning and Data Science",
+    9,
+    True,
+    True,
+    True,
+)
+proj7 = ProjectsClass(
+    "Bharanidharan Shanmugam",
+    "Machine Learning Approaches for Cyber Security",
+    "Artificial Intelligence, Machine learning and Data Science",
+    9,
+    True,
     True,
     True,
 )
 
-print(proj1.category)
+projects_list = [proj1.__dict__, proj2.__dict__, proj3.__dict__, proj4.__dict__, proj5.__dict__, proj6.__dict__, proj7.__dict__]
+
+# print(proj1.location())
+# print(proj1.__dict__)
+print(projects_list)
 
 # proj2 = ProjectsClass()
 # proj3 = ProjectsClass()

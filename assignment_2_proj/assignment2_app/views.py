@@ -8,7 +8,7 @@ def home(request):
 
 
 # http://127.0.0.1:8000/project-details
-def project_details(request):
+def project_details(request, slug):
     context = {}
 
     return render(request, "assignment2_app/projectDetails.html", context)
@@ -17,7 +17,6 @@ def project_details(request):
 # http://127.0.0.1:8000/project-list
 def project_list(request):
     context = {}
-
     return render(request, "assignment2_app/projectList.html", context)
 
 
