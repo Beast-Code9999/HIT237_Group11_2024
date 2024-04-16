@@ -1,7 +1,26 @@
 # Where we shall write our python classes for Project Details
 
+
 class ProjectsClass:
-    def __init__(self, supervisor, title, category, topic_num, casuarina, sydney, external, chem_eng, civ_eng, elec_eng, mec_eng, com_sci, cyber, data_sci, info_sys, soft_eng):
+    def __init__(
+        self,
+        supervisor,
+        title,
+        category,
+        topic_num,
+        casuarina,
+        sydney,
+        external,
+        chem_eng,
+        civ_eng,
+        elec_eng,
+        mec_eng,
+        com_sci,
+        cyber,
+        data_sci,
+        info_sys,
+        soft_eng,
+    ):
         self.supervisor = supervisor
         self.title = title
         self.category = category
@@ -19,15 +38,14 @@ class ProjectsClass:
         self.information_systems_and_data_science = info_sys
         self.software_engineering = soft_eng
 
-
-    def location( self ):
+    def location(self):
         return {
             "casuarina": self.casuarina,
             "sydney": self.sydney,
             "external": self.external,
         }
-    
-    def fields( self ):
+
+    def fields(self):
         return {
             "Chemical Engineering": self.chemical_engineering,
             "Civil and Structural Engineering": self.civil_and_structural_engineering,
@@ -41,16 +59,33 @@ class ProjectsClass:
         }
 
 
-proj1 = ProjectsClass("Bharanidharan Shanmugam", "Machine Learning Approaches for Cyber Security", "Artificial Intelligence, Machine learning and Data Science", 9, True, True, True, False, False, False, False, True, False, False, True, True)        
+proj1 = ProjectsClass(
+    "Bharanidharan Shanmugam",
+    "Machine Learning Approaches for Cyber Security",
+    "Artificial Intelligence, Machine learning and Data Science",
+    9,
+    True,
+    True,
+    True,
+    False,
+    False,
+    False,
+    False,
+    True,
+    False,
+    False,
+    True,
+    True,
+)
 
 print(proj1.category)
 
-# proj2 = ProjectsClass()        
-# proj3 = ProjectsClass()        
-# proj4 = ProjectsClass()        
-# proj5 = ProjectsClass()        
-# proj6 = ProjectsClass()        
-# proj7 = ProjectsClass()        
+# proj2 = ProjectsClass()
+# proj3 = ProjectsClass()
+# proj4 = ProjectsClass()
+# proj5 = ProjectsClass()
+# proj6 = ProjectsClass()
+# proj7 = ProjectsClass()
 
 
 projects_list = []
