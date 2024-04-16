@@ -8,7 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 140px;
+    padding: 50px 120px;
     background-color: #770577;
 }
 
@@ -45,13 +45,10 @@ header nav ul li a {
 
 footer {
     text-align: justify;
-    padding: 50px 140px;
-    text-decoration: none;
+    padding: 50px 120px;
     color: #ffffff;
     background-color: #770577;
-    /* position: absolute; */
-    width: 100%;
-    bottom: 0;
+    text-align: center;
 }
 
 /* For Research  */
@@ -112,25 +109,12 @@ body {
 .profiles {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 }
 
-.jason,
-.micia,
-.tirth,
-.zandro {
-    width: 200px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 30px;
-    border: 2px solid #770577
-}
-
 .about-us {
-    margin: 50px 140px;
+    margin: 50px 120px;
 }
 
 section h2 {
@@ -139,11 +123,33 @@ section h2 {
 
 .logo img {
     height: 150px;
-    /* width: 200px; */
 }
 
-h1 {
+.logo h1 {
     font-size: 50px;
     color: #ffffff;
     margin: 20px;
+}
+
+.about-us h2 {
+    font-size: 35px;
+}
+
+.profile-header {
+    font-size: 20px;
+}
+
+.description {
+    font-size: 18px;
+}
+
+article {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border: 3px solid #770577;
+    border-radius: 10px;
 }
