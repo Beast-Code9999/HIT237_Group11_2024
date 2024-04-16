@@ -11,16 +11,17 @@
 </head>
 <body>
     <header class="header">
-        <a href="{% url 'home' %}">
+        <a class="link" href="{% url 'home' %}">
             <div class="header__logo">
-                <img class="header__img" src="{% static "img/1234.png" %}" alt="Group 11 Logo">
+                <img class="header__img" src="{% static "img/hit237_group11_logo.png" %}" alt="Group 11 Logo">
+                <div>GROUP 11</div>
             </div>
         </a>
         <nav class="navigation">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="{% url 'home' %}">Home</a></li>
-                <li class="navigation__item"><a href="{% url 'project-list' %}">Projects</a></li>
-                <li class="navigation__item"><a href="{% url 'about' %}">About us</a></li>
+                <li class="navigation__item"><a class="link" href="{% url 'home' %}">Home</a></li>
+                <li class="navigation__item"><a class="link" href="{% url 'project-list' %}">Projects</a></li>
+                <li class="navigation__item"><a class="link" href="{% url 'about' %}">About us</a></li>
             </ul>
         </nav>
     </header>
