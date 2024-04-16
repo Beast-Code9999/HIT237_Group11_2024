@@ -10,7 +10,6 @@
     {% block  css_files %}{% endblock %}
 </head>
 <body>
-    
     <header class="header">
         <a href="{% url 'home' %}">
             <div class="header__logo">
@@ -27,9 +26,11 @@
     </header>
 
 
-    {% block content %} 
-    
-    {% endblock content %}
+    <main class="main">
+        {% block content %} 
+        
+        {% endblock content %}
+    </main>
 
 
     <footer class="footer">
