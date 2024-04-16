@@ -8,15 +8,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
+    padding: 50px 140px;
     background-color: #770577;
 }
 
-header .logo img {
-    height: 70px; /* Adjust based on your logo */
-
-
-}
+/* header .logo img {
+    height: 70px;
+} */
 
 header .logo {
     display: flex;
@@ -47,7 +45,7 @@ header nav ul li a {
 
 footer {
     text-align: justify;
-    padding: 20px 10%;
+    padding: 50px 140px;
     text-decoration: none;
     color: #ffffff;
     background-color: #770577;
@@ -75,7 +73,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.research-topics-title {
     text-align: center;
     color: #007BFF;
     margin-top: 20px;
@@ -137,4 +135,15 @@ h1 {
 
 section h2 {
     text-align: center;
+}
+
+.logo img {
+    height: 150px;
+    /* width: 200px; */
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffffff;
+    margin: 20px;
 }
