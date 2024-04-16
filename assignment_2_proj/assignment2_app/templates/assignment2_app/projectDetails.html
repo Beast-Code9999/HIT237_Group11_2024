@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Details</title>
-</head>
-<body>
-    {% extends "./base.html" %}
 
-    {% block content %}
-    <main>
-        <!-- Content will be added dynamically using templates -->
-        <h1>this is Project details</h1>
-    </main>
-    {% endblock content %}
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %} Project details {% endblock %}
+
+
+{% block content %}
+    <h1>this is This is project details</h1>
+{% endblock content %}
