@@ -18,7 +18,6 @@ section h2 {
 }
 .article {
     width: max(25rem, 23%);
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
