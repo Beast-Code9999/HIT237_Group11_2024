@@ -1,43 +1,46 @@
 # Where we shall write our python classes for Project Details
 class Member:
-    def __init__(self, name, id, course, age, nationality):
-        
+    def __init__(self, name, id, course, age, nationality, img):
         self.name = name
         self.id = id
         self.course = course
         self.age = age
         self.nationality = nationality
+        self.img = img
 
 # use tuples here
 
 Jason = Member(
     "Jason Khung Siong Lay",
     "(S365475)",
-    "Bachelor of Computer Science (second year)",
+    "Bachelor of Coomputer Science (second year)",
     "21-years-old",
-    "Timorese"
+    "Timorese",
+    "Jason.jpg",
 )
 Micia = Member(
     "Micia Correia Gusmao",
     "(S367733)",
-    "Bachelor of Computer Science (second year)",
+    "Bachelor of Coomputer Science (second year)",
     "19-years-old",
-    "Indian"
+    "Indian",
+    "Micia.jpg",
 )
 Tirth = Member(
     "Tirth Jyotikar",
     "(S361950)",
-    "Bachelor of Computer Science (second year)",
+    "Bachelor of Information Technology (second year)",
     "20-years-old",
-    "Indian"
+    "Indian",
+    "Tirth.jpg",
 )
 Zandro = Member(
-    
     "Zandro Uriel Getuya",
     "(S366139)",
     "Bachelor of Information Technology (second year)",
     "19-years-old",
-    "Filipino"
+    "Filipino",
+    "Zandro.jpeg",
 )
 
 members_list = [Jason.__dict__, Micia.__dict__, Tirth.__dict__, Zandro.__dict__]
@@ -54,6 +57,7 @@ class ProjectsClass:
         sydney,
         external,
         location,
+        fields,
     ):
         self.supervisor = supervisor
         self.title = title
@@ -63,7 +67,7 @@ class ProjectsClass:
         self.sydney = sydney
         self.external = external
         self.location = location
-    
+        self.fields = fields 
 
 proj1 = ProjectsClass(
     "Bharanidharan Shanmugam",
@@ -73,7 +77,8 @@ proj1 = ProjectsClass(
     True,
     True,
     True,
-    "Internal - Casuarina, Internal - Sydney, External"
+    "Internal - Casuarina, Internal - Sydney, External",
+    "Computer Science, Information Systems and Data Science, Software Engineering"
 )
 proj2 = ProjectsClass(
     "Yakub Sebastian",
@@ -84,6 +89,7 @@ proj2 = ProjectsClass(
     True,
     True,
     "Internal - Casuarina, Internal - Sydney, External",
+    "Computer Science, Cyber Security, Data Science, Information Systems and Data Science, Software Engineering"
 )
 proj3 = ProjectsClass(
     "Sami Azam",
@@ -94,6 +100,7 @@ proj3 = ProjectsClass(
     False,
     True,
     "Internal - Casuarina, External",
+    "Electrical and Electronics Engineering, Computer Science, Software Engineering"
 )
 proj4 = ProjectsClass(
     "Sami Azam",
@@ -104,6 +111,7 @@ proj4 = ProjectsClass(
     True,
     True,
     "Internal - Casuarina, Internal - Sydney, External",
+    "Computer Science, Cyber Security, Software Engineering"
 )
 proj5 = ProjectsClass(
     "Asif Karim",
@@ -114,6 +122,7 @@ proj5 = ProjectsClass(
     True,
     True,
     "Internal - Casuarina, Internal - Sydney, External",
+    "Electrical and Electronics Engineering, Computer Science, Data Science, Software Engineering",
 )
 proj6 = ProjectsClass(
     "Asif Karim",
@@ -124,6 +133,7 @@ proj6 = ProjectsClass(
     True,
     True,
     "Internal - Casuarina, Internal - Sydney, External",
+    "Electrical and Electronics Engineering, Computer Science, Data Science, Software Engineering",
 )
 proj7 = ProjectsClass(
     "Bharanidharan Shanmugam",
@@ -134,6 +144,7 @@ proj7 = ProjectsClass(
     True,
     True,
     "Internal - Casuarina, Internal - Sydney, External",
+    "Chemical Engineering, Electrical and Electronics Engineernig, Mechanical Engineering, Computer Science, Cyber Security, Data Science, Information Systems and Data Science, Software Engineering",
 )
 
 projects_list = [proj1.__dict__, proj2.__dict__, proj3.__dict__, proj4.__dict__, proj5.__dict__, proj6.__dict__, proj7.__dict__]

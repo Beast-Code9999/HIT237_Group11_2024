@@ -27,22 +27,8 @@ def project_list(request):
 
 # http://127.0.0.1:8000/about
 def about(request):
-    # images = [
-    #     {
-    #         "title": "FB_IMG_1709708766525.jpg",
-    #     },
-    #     {
-    #     "micia": "micia-pic.jpg",
-    #     },
-    # ]
-
-    images = "Jason.jpg"
-    
-
-
     context = {
         "members": members_list,
-        "images": images,
     }
 
     return render(request, "assignment2_app/about.html", context)
