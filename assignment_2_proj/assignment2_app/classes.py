@@ -1,11 +1,12 @@
 # Where we shall write our python classes for Project Details
 class Member:
-    def __init__(self, name, id, course, age, nationality):
+    def __init__(self, name, id, course, age, nationality, img):
         self.name = name
         self.id = id
         self.course = course
         self.age = age
         self.nationality = nationality
+        self.img = img
 
 # use tuples here
 
@@ -14,21 +15,24 @@ Jason = Member(
     "(S365475)",
     "Bachelor of Coomputer Science (second year)",
     "21-years-old",
-    "Timorese"
+    "Timorese",
+    "FB_IMG_1709708766525.jpg",
 )
 Micia = Member(
     "Micia Correia Gusmao",
     "(S367733)",
     "Bachelor of Coomputer Science (second year)",
     "19-years-old",
-    "Indian"
+    "Indian",
+    "micia-pic.jpg",
 )
 Tirth = Member(
     "Tirth Jyotikar",
     "(S361950)",
     "Bachelor of Information Technology (second year)",
     "20-years-old",
-    "Indian"
+    "Indian",
+    
 )
 Zandro = Member(
     "Zandro Uriel Getuya",
