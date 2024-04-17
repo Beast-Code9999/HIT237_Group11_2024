@@ -32,14 +32,15 @@ Tirth = Member(
     "Bachelor of Information Technology (second year)",
     "20-years-old",
     "Indian",
-    
+    "Tirth.jpg",
 )
 Zandro = Member(
     "Zandro Uriel Getuya",
     "(S366139)",
     "Bachelor of Information Technology (second year)",
     "19-years-old",
-    "Filipino"
+    "Filipino",
+    "Zandro.jpeg",
 )
 
 members_list = [Jason.__dict__, Micia.__dict__, Tirth.__dict__, Zandro.__dict__]
