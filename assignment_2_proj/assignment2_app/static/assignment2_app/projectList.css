@@ -38,13 +38,13 @@
 .project h2 {
     color: #770577;
     margin-top: 0;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .project p {
     margin: 10px 0;
     line-height: 1.5;
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 .project strong {
