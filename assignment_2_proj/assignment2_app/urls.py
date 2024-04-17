@@ -3,7 +3,7 @@ from . import views
 
 urlpatterns = [
     # localhost or http://127.0.0.1:8000/
-    path("/", views.home, name="home"), 
+    path("", views.home, name="home"), 
     # http://127.0.0.1:8000/project-list
     path("project-list/", views.project_list, name="project-list"),
     # http://127.0.0.1:8000/project-details/<identifier>
