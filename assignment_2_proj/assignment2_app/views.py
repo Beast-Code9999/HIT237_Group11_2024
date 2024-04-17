@@ -37,6 +37,7 @@ def about(request):
     # ]
 
     images = "FB_IMG_1709708766525.jpg"
+    
 
 
     context = {

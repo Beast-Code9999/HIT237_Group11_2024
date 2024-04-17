@@ -28,7 +28,7 @@ Tirth = Member(
     "(S361950)",
     "Bachelor of Information Technology (second year)",
     "20-years-old",
-    "Timorese"
+    "Indian"
 )
 Zandro = Member(
     "Zandro Uriel Getuya",
