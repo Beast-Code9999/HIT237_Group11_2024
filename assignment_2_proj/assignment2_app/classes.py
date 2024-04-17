@@ -171,7 +171,7 @@ projects_list = [proj1.__dict__, proj2.__dict__, proj3.__dict__, proj4.__dict__,
 
 # print(proj1.location())
 # print(proj1.__dict__)
-print(projects_list)
+# print(projects_list)
 
 
 # class ProjectsCategoryClass:
