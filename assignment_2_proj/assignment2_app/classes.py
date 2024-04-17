@@ -1,6 +1,7 @@
 # Where we shall write our python classes for Project Details
 class Member:
     def __init__(self, name, id, course, age, nationality):
+        
         self.name = name
         self.id = id
         self.course = course
@@ -12,25 +13,26 @@ class Member:
 Jason = Member(
     "Jason Khung Siong Lay",
     "(S365475)",
-    "Bachelor of Coomputer Science (second year)",
+    "Bachelor of Computer Science (second year)",
     "21-years-old",
     "Timorese"
 )
 Micia = Member(
     "Micia Correia Gusmao",
     "(S367733)",
-    "Bachelor of Coomputer Science (second year)",
+    "Bachelor of Computer Science (second year)",
     "19-years-old",
     "Indian"
 )
 Tirth = Member(
     "Tirth Jyotikar",
     "(S361950)",
-    "Bachelor of Information Technology (second year)",
+    "Bachelor of Computer Science (second year)",
     "20-years-old",
     "Indian"
 )
 Zandro = Member(
+    
     "Zandro Uriel Getuya",
     "(S366139)",
     "Bachelor of Information Technology (second year)",
