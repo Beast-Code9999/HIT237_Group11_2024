@@ -18,7 +18,7 @@ section h2 {
 }
 .article {
     width: max(25rem, 23%);
-    height: 35rem;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -28,7 +28,9 @@ section h2 {
 .article__header {
     font-size: 2rem;
 }
-
+.article__img {
+    /* height: 25rem; */
+}
 p {
     font-size: 1.3rem;
 }

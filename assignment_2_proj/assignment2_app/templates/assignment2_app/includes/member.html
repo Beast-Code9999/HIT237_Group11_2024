@@ -1,11 +1,10 @@
 {% load static %}
 
-
 <article class="article jason">
     <div class="profile-header">
         <h3 class="article__header">{{ member.name }} <br> {{ member.id }}</h3>
     </div>
-    <img src="{% static "assignment2_app/img/"|add:images %}" alt="">
+    <img class="article__img" src="{% static "assignment2_app/img/"|add:member.img %}" alt="">
     <div class="description">
         <p><strong>Course:</strong> {{ member.course }}</p>
         <p><strong>Age:</strong> {{ member.age }}</p>

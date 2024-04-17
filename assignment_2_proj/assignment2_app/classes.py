@@ -16,7 +16,7 @@ Jason = Member(
     "Bachelor of Coomputer Science (second year)",
     "21-years-old",
     "Timorese",
-    "FB_IMG_1709708766525.jpg",
+    "Jason.jpg",
 )
 Micia = Member(
     "Micia Correia Gusmao",
@@ -24,7 +24,7 @@ Micia = Member(
     "Bachelor of Coomputer Science (second year)",
     "19-years-old",
     "Indian",
-    "micia-pic.jpg",
+    "Micia.jpg",
 )
 Tirth = Member(
     "Tirth Jyotikar",
