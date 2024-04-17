@@ -19,7 +19,7 @@
             <p><strong>Thesis Supervisor:</strong> {{ project.supervisor }}</p>
             <p><strong>Locations:</strong> {{ project.location }}</p>
             <p><strong>Fields:</strong> {{ project.fields }}</p>
-            <p><strong>Description: </strong>  {{ project.description }}</p>
+            <p><strong>Description: </strong>  {{ project.description|linebreaks }}</p>
         </div>
     </div>
 </section>
