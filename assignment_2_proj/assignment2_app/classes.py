@@ -57,6 +57,7 @@ class ProjectsClass:
         sydney,
         external,
         location,
+        fields,
     ):
         self.supervisor = supervisor
         self.title = title
@@ -66,7 +67,7 @@ class ProjectsClass:
         self.sydney = sydney
         self.external = external
         self.location = location
-    
+        self.fields = fields 
 
 proj1 = ProjectsClass(
     "Bharanidharan Shanmugam",
@@ -76,7 +77,8 @@ proj1 = ProjectsClass(
     True,
     True,
     True,
-    "Internal - Casuarina, Internal - Sydney, External"
+    "Internal - Casuarina, Internal - Sydney, External",
+    "Computer Science, Information Systems and Data Science, Software Engineering"
 )
 proj2 = ProjectsClass(
     "Yakub Sebastian",
@@ -87,6 +89,7 @@ proj2 = ProjectsClass(
     True,
     True,
     "Internal - Casuarina, Internal - Sydney, External",
+    "Computer Science, Cyber Security, Data Science, Information Systems and Data Science, Software Engineering"
 )
 proj3 = ProjectsClass(
     "Sami Azam",
@@ -97,6 +100,7 @@ proj3 = ProjectsClass(
     False,
     True,
     "Internal - Casuarina, External",
+    "Electrical and Electronics Engineering, Computer Science, Software Engineering"
 )
 proj4 = ProjectsClass(
     "Sami Azam",
@@ -107,6 +111,7 @@ proj4 = ProjectsClass(
     True,
     True,
     "Internal - Casuarina, Internal - Sydney, External",
+    "Computer Science, Cyber Security, Software Engineering"
 )
 proj5 = ProjectsClass(
     "Asif Karim",
@@ -117,6 +122,7 @@ proj5 = ProjectsClass(
     True,
     True,
     "Internal - Casuarina, Internal - Sydney, External",
+    "Electrical and Electronics Engineering, Computer Science, Data Science, Software Engineering",
 )
 proj6 = ProjectsClass(
     "Asif Karim",
@@ -127,6 +133,7 @@ proj6 = ProjectsClass(
     True,
     True,
     "Internal - Casuarina, Internal - Sydney, External",
+    "Electrical and Electronics Engineering, Computer Science, Data Science, Software Engineering",
 )
 proj7 = ProjectsClass(
     "Bharanidharan Shanmugam",
@@ -137,6 +144,7 @@ proj7 = ProjectsClass(
     True,
     True,
     "Internal - Casuarina, Internal - Sydney, External",
+    "Chemical Engineering, Electrical and Electronics Engineernig, Mechanical Engineering, Computer Science, Cyber Security, Data Science, Information Systems and Data Science, Software Engineering",
 )
 
 projects_list = [proj1.__dict__, proj2.__dict__, proj3.__dict__, proj4.__dict__, proj5.__dict__, proj6.__dict__, proj7.__dict__]
