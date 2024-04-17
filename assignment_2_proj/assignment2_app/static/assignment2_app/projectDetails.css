@@ -11,3 +11,12 @@
     margin-bottom: 4rem;
     color: var(--color-primary);
 }
+.project__heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+p {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
