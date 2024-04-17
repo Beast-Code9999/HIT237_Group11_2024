@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %} Project details {% endblock %}
+{% block title %} {{ project.title}} {% endblock %}
 
 {% block css_files %}
     <link rel="stylesheet" href="{% static "assignment2_app/projectDetails.css"%}">
@@ -13,13 +13,13 @@
     <div class="container">
         <h1>Research Topic</h1>
         <div class="project">
-            <h2>Topic Number: 1</h2>
-            <p><strong>Category:</strong> Artificial Intelligence, Machine Learning and Data Science</p>
-            <p><strong>Title:</strong> Machine learning approaches for Cyber Security</p>
-            <p><strong>Thesis Supervisor:</strong> Bharanidharan Shanmugam</p>
-            <p><strong>Locations:</strong> Internal - Casuarina, Internal - Sydney, External</p>
-            <p><strong>Fields:</strong> Computer Science, Cyber Security, Data Science, Information Systems and Data Science</p>
-            <p> </p>
+            <h2 class="project__heading">{{ project.title }}</h2>
+            <p><strong>Category:</strong> {{ project.category }}</p>
+            <p><strong>Topic Number:</strong> {{ project.topic_num }}</p>
+            <p><strong>Thesis Supervisor:</strong> {{ project.supervisor }}</p>
+            <p><strong>Locations:</strong> {{ project.location }}</p>
+            <p><strong>Fields:</strong> {{ project.fields }}</p>
+            <p><strong>Description: </strong>  {{ project.description }}</p>
         </div>
     </div>
 </section>
