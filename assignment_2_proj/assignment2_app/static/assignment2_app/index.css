@@ -18,11 +18,12 @@ html, body {
 
 .image {
     display: block;
-    width: 85vw; 
+    width: 100%; 
     height: 90vh; 
     object-fit: cover; 
     object-position: left; 
     margin-top: 0; 
+    vertical-align: middle;
 }
 
 
